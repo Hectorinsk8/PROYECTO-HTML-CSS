@@ -1,0 +1,256 @@
+*{
+    color: aliceblue;
+    background-color: rgb(20, 20, 20);
+    text-align: justify;
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+#logo{
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+header{
+    height: 60px;
+    display: grid;
+    grid-template-columns: .5fr 5fr 1fr;
+    padding: 10px 0;
+}
+
+.header{
+   margin: 10px;
+   
+
+}
+
+#seccion-header{
+    display: grid;
+    grid-template-columns: .1fr .1fr .1fr .1fr .5fr;
+    grid-column-gap: 0;
+    padding: 20px 0;
+
+}
+
+#apartados{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+}
+
+#juegos-principal{
+    width: 100%;
+}
+
+.apartados{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    
+}
+
+.img{
+    height: 40px;
+    margin: 10px;
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 20px;
+}
+
+.boton {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.3s ease, color 0.3s ease;
+  }
+  
+  .boton:hover {
+    color: blue;
+  }
+
+  .boton-header {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.3s ease, color 0.3s ease;
+    height: fit-content;
+    width: fit-content;
+  }
+  
+  .boton-header:hover {
+    background-color: rgb(68, 60, 60);
+    border-radius: 13%;
+    border: 5px;
+  }
+
+  #seccion-header-sec{
+    display: grid;
+    grid-template-columns: .1fr .1fr 3fr;
+    padding: 5px 0;
+    grid-column-gap: 5px;
+  }
+  
+  #descargar{
+    background-color: blue;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: color 0.3s ease, color 0.3s ease;
+    height: min-content;
+    width: min-content;
+    padding: 20px 0;
+  }
+
+#descargar:hover {
+  background-color: rgb(67, 67, 226);
+}
+
+  #redes-sociales{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+
+  }
+
+  #arriba{
+    text-align: end;
+  }
+
+  #redes{
+    height: 40px;
+    width: 40px; 
+  }
+
+  footer{
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+
+  #fxy{
+    display: grid;
+    grid-template-columns: .01fr .01fr .01fr;
+  }
+
